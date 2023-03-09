@@ -1,10 +1,12 @@
-<h3 class="card-header">Public Events</h3>
-<ul class="list-group list-group-flush">
-    <app-loading *ngIf="loading"></app-loading>
-  <li class="list-group-item" *ngFor="let activity of data.data">
-    <i class="fa fa-caret-right" aria-hidden="true"> </i>
-    <a [attr.href]="activity.repo.url" target="_blank" rel="noreferrer">
-      {{ activity.repo.name.split('/')[1] }} - <span class="small-font">{{ activity.type.split('Event')[0] }}</span>
-  </a> 
-  </li>
-</ul>
+<div class="card p-5 mt-4">
+  <h3 class="card-header">Public Events</h3>
+  <ul class="list-group list-group-flush">
+      <app-loading *ngIf="loading"></app-loading>
+    <li class="list-group-item" *ngFor="let activity of data.data">
+      <i class="fa fa-caret-right" aria-hidden="true"> </i>
+      <a [attr.href]="activity.repo.url" target="_blank" rel="noreferrer">
+        {{ activity.repo.name.split('/')[1] }} - <span class="small-font">{{ activity.type.split('Event')[0] }}</span>
+    </a> 
+    </li>
+  </ul>
+</div>
