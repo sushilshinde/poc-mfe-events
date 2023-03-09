@@ -1,27 +1,24 @@
-# ArchitectFederationExample
+# Getting Started with MFE Public Events Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+## Prerequisites:
+Create an environment configuration file by the format mentioned in the example `.env.example` file.
 
-## Development server
+## Available Scripts
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+In the project directory, you can run:
 
-## Code scaffolding
+### `npm run dev`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Runs the app in the development mode.\
+Open [http://localhost:4000](http://localhost:4000) to view it in your browser.
 
-## Build
+### `npm run build`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Builds the app for production to the `build` folder.\
+It correctly bundles Angular in production mode and optimizes the build for the best performance.
 
-## Running unit tests
+### `npm run prod`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Starts the app in production mode after `dist/mfe1` folder is created.\
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Also refer the section about [Production deployment](https://wiki.msystechnologies.com/doc/mfe-documentation-Ng5uksSbT2#h-local-deployment).
